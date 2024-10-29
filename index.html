@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>encontro perfeito</title>
 </head>
 <body>
     <main>
-        <div class="passo" id="passo 0">
-            <p>um dia resolvi chamar uma colega de trabalho para ir a um encontro em um restaurante mais fiquei em duvida de qual restaurante leva-la</p>
+        <div class="passo ativo" id="passo 0">
+            <img src="cenario.jpg" alt="">
+            <p>um dia resolvi chamar uma colega de trabalho para ir a um encontro em um restaurante mais fiquei em duvida de qual restaurante leva-la.</p>
         <button class="btn-proximo" data-proximo="1">restaurante five star</button>
         <button class="btn-proximo" data-proximo="2">restaurante araucarias</button>
         </div>
+
+        <div class="passo" id="passo 1">
+            <p>o restaurante estava fechado por questoes de higiene</p>
+        <button class="btn-proximo" data-proximo="3">leva-la para casa</button>
+        <button class="btn-proximo" data-proximo="4">seguir para o restaurante das araucarias</button>
+        </div>
+         
+        <div class="passo" id="passo-2">
+           <p>chegamos no restaurante, estava lotado entao nao conseguimos pegar uma mesa, entao convidei ela para ir para casa.</p>
+       <button class="btn-proximo" data-proximo="5">preparar um jantar</button>
+       <button class="btn-proximo" data-proximo="6">assistir filme e comer pipoca</button>
+        </div>
+         <div class="passo" id="passo-3">
+            <p>chegando la ela quis comer pipoca e assistir filme  de romance.</p>
+            <button class="btn-proximo" data-proximo="5">abraca-la</button>
+            <button class="btn-proximo" data-proximo="6">apenas assistir o filme</button>
+    </div>
+
     </main>
-
-
-
+<script src="script.js"></script>
 </body>
 </html>
